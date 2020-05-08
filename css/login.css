@@ -1,0 +1,45 @@
+body {
+    background: #DEDEDE;
+}
+
+.main-container {
+    width: 100%;
+}
+
+.login {
+    width: 50%;
+    margin-top: 6%;
+}
+
+@media screen and (max-width: 1000px) {
+    body {
+        background: yellow;
+    }
+
+    .login {
+        width: 70%;
+        margin-top: 9%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    body {
+        background: teal;
+    }
+
+    .login {
+        width: 70%;
+        margin-top: 10%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        background: green;
+    }    
+
+    .login {
+        width: 80%;
+        margin-top: 20%;
+    }
+}
