@@ -9,7 +9,9 @@ include("../auth/auth_session.php");
     <title>Document</title>
 </head>
 <body>
+    <h1>Admin</h1>
     <h1><?php echo $_SESSION['username']; ?></h1>
+    <a href="../auth/logout.php">Logout</a>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo illo quidem iusto voluptatem perferendis minima reiciendis at ut. Sapiente reprehenderit natus quam repellendus aut sequi, quod sed non perferendis fugit!</p>
 
 </body>
