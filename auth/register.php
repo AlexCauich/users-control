@@ -53,7 +53,7 @@ if (isset($_POST['reg_admin'])) {
 
         $_SESSION['username'] = $username;
         // Redirect to user dashboard page
-        header("Location: ./admin/index.php");
+        header("Location: ./users/index.php");
     }
   
 }
